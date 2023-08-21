@@ -1,0 +1,32 @@
+div.chat{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: -80px;
+}
+div.chat>div{
+    width: auto;
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 70px;
+    padding-left: 30px;
+}
+div.chat>div>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+div.chat>div>h4{
+    font-size: 10px;
+    font-family: yekan;
+    font-weight: normal;
+}
+div.chat>div>i{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 90px;
+    padding-top: 0px;
+}

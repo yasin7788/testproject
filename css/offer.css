@@ -1,0 +1,48 @@
+div.offer {
+  width: 1300px;
+  height: 400px;
+  margin: 50px auto;
+}
+div.offer > div.offer1 {
+  width: inherit;
+  height: 50px;
+}
+div.offer > div.offer1 > span {
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  font-family: yekan;
+  font-size: 20px;
+}
+table.table {
+  width: 1300px;
+  height: 350px;
+  border-radius: 15px;
+  border-color: #8b8b8b ;
+}
+td > div > img {
+  width: 85px;
+  height: 85px;
+  display: block;
+  border-radius: 85px;
+}
+td > div {
+  width: 85px;
+  height: 85px;
+  display: block;
+  border-radius: 85px;
+  margin: 20px auto;
+}
+td.td1 > div > span.td {
+  font-family: yekan;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+} td>div.td2{
+  margin-top: 30px;
+}
+td>div.td>span{
+  vertical-align: middle;
+  text-align: center;
+  
+}

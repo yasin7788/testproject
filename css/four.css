@@ -1,0 +1,21 @@
+div.four{
+    width: inherit;
+    height: 240px;
+    margin: 20px auto;
+}
+div.four>div{
+    width: 330px;
+    height: 235px;
+    display: inline-block;
+    margin: auto 10px;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+div.four>div>img{
+    width: 330px;
+    height: 235px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    border-radius: 15px;
+}

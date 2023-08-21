@@ -1,0 +1,72 @@
+div.dasteh{
+    width: inherit;
+    height: 430px;
+}
+div.dasteh1{
+    width: inherit;
+    height: 55px;
+}
+div.dasteh>div.dasteh1>span{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    font-family: yekan;
+    font-size: 20px;
+}
+div.dasteh>div.dasteh2{
+    width: inherit;
+    height: 375px;
+    vertical-align: auto;
+}
+div.dasteh>div.dasteh2>div.dasteh22{
+    width: 150px;
+    height: 150px;
+    margin: 15px 30px;
+    display: inline-block;
+}
+div.dasteh>div.dasteh2>div.dasteh333{
+    margin-right: 150px;
+}
+div.dasteh>div.dasteh2>div.dasteh22>div.dasteh223{
+    width: 100px;
+    height: 100px;
+}
+div.dasteh>div.dasteh2>div.dasteh22>div.dasteh223>img{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    padding-right: 25px;
+    border-radius: 200px;
+}
+div.dasteh>div.dasteh2>div.dasteh22>div.dasteh223>span{
+    display: block;
+    width: inherit;
+    height: 50px;
+    padding-right: 25px;
+    text-align: center;
+
+}
+div.dota{
+    width: inherit;
+    height: 260px;
+}
+div.dota>div.dota1{
+    display: inline-block;
+    margin: 10px auto;
+}
+div.dota>div.dota2{
+    display: inline-block;
+    margin: 10px auto;
+}
+div.dota>div.dota1>img{
+    width: 645px;
+    height: 260px;
+    margin-right: 100px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+div.dota>div.dota2>img{
+    width: 645px;
+    height: 260px;
+    border-radius: 15px;
+}

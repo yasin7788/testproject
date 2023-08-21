@@ -1,0 +1,67 @@
+div.amazing{
+    width: 100%;
+    height: 350px;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.karimswiper{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: crimson;
+    border-radius: 20px;
+    border-left: 3px solid crimson;
+    height: 300px;
+}
+.swiper-slide{
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 90px;
+}
+div.karimi>div.same>img{
+    width: 150px;
+    height: 150px;
+}
+div.karimi>div.same *{
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: yekan;
+    text-decoration: none;
+
+}
+div.swiper-slide>div>span.takhfif{
+    width: 25px;
+    height: 10px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-family: yekan;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+div.swiper-slide>div>span{
+    width: 25px;
+    height: 10px;
+    font-size: 14px;
+    font-family: yekan;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+div.swiper-slide>div>span>del{
+    display: inline-block;
+    color: #6b6b6b;
+    padding-top: 10px;
+}
+div.karimi{
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 90px;
+    background-color: crimson;
+}
+div.pc>div>img{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,83 @@
+div.hard{
+    width: 100%;
+    height: 110px;
+    background-color:#ECF0EF;
+}
+div.hard>div.hard1{
+    width: 110px;
+    height: 110px;
+    display: inline-block;
+
+}
+div.hard>div.hard1>img{
+    width: 60px;
+    height: 60px;
+    object-fit: fill;
+    padding: 20px;
+}
+div.hard>div.hard2{
+    display: inline-block;
+    padding-right: 40px;
+    margin-left: 30px;
+}
+div.hard>div.hard2>img{
+    padding-bottom: 30px;
+}
+div.hard>div.hard3{
+    color: whitesmoke;
+    width: 110px;
+    height: 25px;
+    background-color: #39AE01;
+    display: inline-block;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 100px; 
+}
+div.hard>div.hard3>span{
+    font-family: yekan;
+    font-size: 14px;
+    display:block;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+div.hard45{
+    width: 500px;
+    height: 90px;
+    display: inline-block;
+    margin-right:300px;
+    position: relative;
+}
+div.hard45>div.hard4{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+}
+div.hard45>div.hard4>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 75px;
+    object-fit: cover;
+    margin: 2px;
+}
+div.hard>div.hard6{
+    color: #39AE01;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+div.hard>div.hard6>span{
+    font-family: yekan;
+    font-size: 14px;
+    display:block;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 22px;
+    }

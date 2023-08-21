@@ -1,0 +1,381 @@
+header {
+  width: 100%;
+  height: 170px;
+  box-shadow: 0px 1px 2px #ababab;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #7b7b7b;
+  border-radius: 10px;
+}
+header > div.top {
+  width: inherit;
+  height: 70px;
+}
+header > div.top > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+header > div.bottom {
+  width: inherit;
+  height: 110px;
+}
+header > div.bottom > div.bottomtop {
+  width: inherit;
+  height: 70px;
+}
+header > div.bottom > div.bottomtop > div.logo {
+  width: 10%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+header > div.bottom > div.bottomtop > div.search {
+  width: 75%;
+  height: inherit;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+}
+header > div.bottom > div.bottomtop > div.login {
+  width: 15%;
+  height: inherit;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+}
+header > div.bottom > div.bottomtop > div.logo > svg {
+  width: 115px;
+  margin-top: 20px;
+}
+header > div.bottom > div.bottomtop > div.search > input[type="search"] {
+  width: 600px;
+  height: 45px;
+  outline: unset;
+  margin-top: 15px;
+  margin-right: 10px;
+  border-radius: 25px;
+  border: unset;
+  padding-right: 20px;
+  font-size: 13px;
+  font-family: yekan;
+  padding-left: 20px;
+  background-color: #f1f2f4;
+}
+header
+  > div.bottom
+  > div.bottomtop
+  > div.search
+  > input[type="search"]::placeholder {
+  font-size: 12px;
+  font-family: yekan;
+  font-weight: bold;
+}
+header > div.bottom > div.bottomtop > div.login > a.register {
+  width: 135px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid #e0e0e6;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 11px;
+  font-weight: bold;
+  color: #2b2b2b;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+header > div.bottom > div.bottomtop > div.login > a.register > span {
+  margin-right: 5px;
+}
+header > div.bottom > div.bottomtop > div.login > span {
+  font-size: 30px;
+  color: lightgray;
+  vertical-align: middle;
+}
+header > div.bottom > div.bottombottom {
+  width: 100%;
+  height: 40px;
+}
+header > div.bottom > div.bottombottom > nav {
+  width: inherit;
+  height: inherit;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+header > div.bottom > div.bottombottom > nav > div {
+  display: inline-block;
+  width: fit-content;
+  height: inherit;
+}
+header > div.bottom > div.bottombottom > nav > div > a {
+  display: block;
+  width: inherit;
+  padding: 0 10px;
+  height: inherit;
+  line-height: 40px;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 12px;
+  color: #2b2b2b;
+  text-align: center;
+}
+header > div.bottom > div.bottombottom > nav > div > a > i {
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #2b2b2b;
+}
+header > div.bottom > div.bottomtop > div.login * {
+  color: #2b2b2b;
+}
+header
+  > div.bottom
+  > div.bottombottom
+  > nav
+  > div
+  > a
+  > i.fa-location-crosshairs {
+  padding-right: 300px;
+}
+div.bottombottom > nav > div > div.submenu {
+  width: calc(100vw - 60px);
+  height: 60vh;
+  background-color: lightgray;
+  position: absolute;
+  display: none;
+  z-index: 2;
+}
+div.bottombottom > nav > div:hover > div.submenu {
+  display: block;
+}
+div.bottombottom > nav > div > div.submenu > div {
+  width: 12%;
+  background-color: white;
+  height: inherit;
+  overflow: auto;
+  direction: ltr;
+  color: #2b2b2b;
+}
+div.bottombottom > nav > div > div.submenu > div > div {
+  width: 100%;
+  height: 40px;
+}
+div.bottombottom > nav > div > div.submenu > div > div > a {
+  display: block;
+  height: inherit;
+  line-height: 30px;
+  width: auto;
+  padding: 0 10px;
+  font-family: yekan;
+  box-sizing: border-box;
+  font-size: 13px;
+  transition: 300ms;
+  text-decoration: none;
+  text-align: right;
+  color: #2b2b2b;
+}
+div.bottombottom > nav > div > div.submenu > div > div > a:hover {
+  background-color: rgb(247, 94, 94);
+}
+div.bottombottom > nav > div > div.submenu > div > div > a > div {
+  width: 88%;
+  height: 60vh;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  padding-right: 2px;
+}
+div.bottombottom > nav > div > div.submenu > div > div > a:hover > div {
+  display: block;
+}
+div.bottombottom > nav > div > div.submenu > div > div > a > div > div {
+  width: 20%;
+  height: inherit;
+  background-color: white;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: middle;
+}
+div.bottombottom > nav > div > div.submenu > div > div > a > div {
+  direction: rtl;
+  vertical-align: middle;
+}
+div.bottombottom > nav > div > div.submenu > div > div > a > div > div > h3 {
+  font-family: yekan;
+  font-size: 10px;
+  text-align: right;
+  display: inline-block;
+  padding-right: 10px;
+  color: #5b5b5b;
+  margin-top: 8px;
+}
+div.bottombottom
+  > nav
+  > div
+  > div.submenu
+  > div
+  > div
+  > a
+  > div
+  > div
+  > h3
+  > i {
+  padding-right: 5px;
+}
+div.bottombottom > nav > div > div.submenu > div > div > a > div > div > h1 {
+  font-family: yekan;
+  font-size: 12px;
+  text-align: right;
+  display: block;
+  padding-right: 10px;
+  color: #2b2b2b;
+  margin-top: 18px;
+}
+div.bottombottom
+  > nav
+  > div
+  > div.submenu
+  > div
+  > div
+  > a
+  > div
+  > div
+  > h1
+  > span {
+  color: red;
+  font-size: 20px;
+  width: 10px;
+}
+div.bottombottom
+  > nav
+  > div
+  > div.submenu
+  > div
+  > div
+  > a
+  > div
+  > div
+  > h1
+  > i {
+  padding-right: 5px;
+}
+div.bottombottom > nav > div > div.submenu > div > div > a > div > div > h4 {
+  font-family: yekan;
+  font-size: 11px;
+  text-align: right;
+  display: block;
+  padding-right: 10px;
+  color: #6b6b6b;
+  line-height: 27px;
+  font-weight: lighter;
+}
+div.bottombottom > nav > div > div.submenu > div > div > a > div > div > h1.m2 {
+  font-family: yekan;
+  font-size: 12px;
+  text-align: right;
+  display: block;
+  padding-right: 10px;
+  color: #2b2b2b;
+  margin-top: 60px;
+}
+div.bottombottom
+  > nav
+  > div
+  > div.submenu
+  > div
+  > div
+  > a
+  > div
+  > div
+  > h1.m22 {
+  margin-top: 5px;
+}
+div.bottombottom
+  > nav
+  > div
+  > div.submenu
+  > div
+  > div
+  > a
+  > div
+  > div
+  > h1.m2
+  > span {
+  padding-bottom: 5px;
+  color: red;
+  margin-left: 5px;
+  vertical-align: middle;
+  width: 15px;
+}
+div.bottombottom
+  > nav
+  > div
+  > div.submenu
+  > div
+  > div
+  > a
+  > div
+  > div
+  > h1.m33 {
+  margin-top: 5px;
+}
+div.bottombottom
+  > nav
+  > div
+  > div.submenu
+  > div
+  > div
+  > a
+  > div
+  > div
+  > h4.m33 {
+  margin-top: 60px;
+}
+div.bottombottom
+  > nav
+  > div
+  > div.submenu
+  > div
+  > div
+  > a
+  > div
+  > div
+  > h1.m11 {
+  margin-top: 5px;
+}
+div.bottombottom
+  > nav
+  > div
+  > div.submenu
+  > div
+  > div
+  > a
+  > div
+  > div
+  > h1.m222 {
+  padding-top: 45px;
+}
+div.bottombottom
+  > nav
+  > div
+  > div.submenu
+  > div
+  > div
+  > a
+  > div
+  > div
+  > h4.m222 {
+  padding-top: 45px;
+}
